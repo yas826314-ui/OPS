@@ -13,7 +13,7 @@ const fs = require('fs');
    🔑 حط توكن البوت هنا
    ========================================================= */
 
-const TOKEN = 'MTUyMzcyMjc2OTc3MzM2MzI0MQ.GcElzt.UtbeUxQF0bi4TXuH2pJ29jswxm2oBcrOUmVRi4';
+const TOKEN = process.env.GAMES_TOKEN;
 
 /* =========================================================
    ⚙️ إعدادات البوت
