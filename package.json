@@ -1,5 +1,5 @@
 {
-  "name": "discord-bot",
+  "name": "games-bot",
   "version": "1.0.0",
   "main": "games.js",
   "scripts": {

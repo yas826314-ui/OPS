@@ -648,4 +648,9 @@ client.on('messageCreate', async message => {
    🔌 تسجيل الدخول
    ========================================================= */
 
+if (!TOKEN) {
+    console.error('❌ GAMES_TOKEN غير موجود في Environment Variables');
+    process.exit(1);
+}
+
 client.login(TOKEN);
